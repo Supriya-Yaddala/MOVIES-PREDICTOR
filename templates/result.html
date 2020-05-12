@@ -1,0 +1,22 @@
+<html>
+
+<head>
+	<title>Recommendation</title>
+	
+</head>
+<body style="align:center; width:50%;">
+	<h1 align="center" style="background:powderblue; color:Maroon; " >RECOMMENDED MOVIES</h1>
+	
+	<table border="1" style="border-color:Maroon;width=60%;color: white">
+		
+		{%for name in movies%}
+	   <tr>
+	 <p style="color:Maroon; background:powderblue; height:20; font-size:20px" align="center"><i>{{name}}<i></p>
+	  </tr>
+	  {%endfor%}
+	
+	  </table>
+	  
+	</body>
+	
+</html>
